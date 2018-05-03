@@ -1,0 +1,820 @@
+Symbol range map extraction starting
+Processing 14 files
+startProcessing "testmod\ClientProxy.java" md5: f72a0cd9cb4d12b2678376019d2b93ce
+Cache Hit!
+@|testmod\ClientProxy.java|8|15|testmod|package|testmod|(file)
+Class Start: testmod.ClientProxy
+   @|testmod\ClientProxy.java|318|329|ClientProxy|class|testmod.ClientProxy
+   @|testmod\ClientProxy.java|338|343|Proxy|class|testmod.Proxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\ClientProxy.java|406|411|event|param|testmod.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|testmod\ClientProxy.java|350|358|Override|class|java.lang.Override
+      @|testmod\ClientProxy.java|372|379|preInit|method|testmod.Proxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\ClientProxy.java|380|405|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|testmod\ClientProxy.java|423|430|preInit|method|testmod.Proxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\ClientProxy.java|431|436|event|param|testmod.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\ClientProxy.java|496|501|event|param|testmod.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|testmod\ClientProxy.java|446|454|Override|class|java.lang.Override
+      @|testmod\ClientProxy.java|468|472|init|method|testmod.Proxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\ClientProxy.java|473|495|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|testmod\ClientProxy.java|513|517|init|method|testmod.Proxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\ClientProxy.java|518|523|event|param|testmod.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\ClientProxy.java|591|596|event|param|testmod.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|testmod\ClientProxy.java|533|541|Override|class|java.lang.Override
+      @|testmod\ClientProxy.java|555|563|postInit|method|testmod.Proxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\ClientProxy.java|564|590|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|testmod\ClientProxy.java|608|616|postInit|method|testmod.Proxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\ClientProxy.java|617|622|event|param|testmod.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : testmod.ClientProxy
+endProcessing "testmod\ClientProxy.java"
+
+startProcessing "testmod\Proxy.java" md5: 2790ce217a8f43e6d1df545dd5920566
+Cache Hit!
+@|testmod\Proxy.java|8|15|testmod|package|testmod|(file)
+Class Start: testmod.Proxy
+   @|testmod\Proxy.java|382|387|Proxy|class|testmod.Proxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\Proxy.java|438|443|event|param|testmod.Proxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|testmod\Proxy.java|404|411|preInit|method|testmod.Proxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\Proxy.java|412|437|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|testmod\Proxy.java|449|459|ModRecipes|class|testmod.init.ModRecipes
+      @|testmod\Proxy.java|460|464|init|method|testmod.init.ModRecipes|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\Proxy.java|514|519|event|param|testmod.Proxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|testmod\Proxy.java|486|490|init|method|testmod.Proxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\Proxy.java|491|513|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\Proxy.java|580|585|event|param|testmod.Proxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|testmod\Proxy.java|544|552|postInit|method|testmod.Proxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\Proxy.java|553|579|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : testmod.Proxy
+endProcessing "testmod\Proxy.java"
+
+startProcessing "testmod\TestMod.java" md5: 86bc5ef082fd164743f46ce4e93c3ede
+Cache Hit!
+@|testmod\TestMod.java|8|15|testmod|package|testmod|(file)
+Class Start: testmod.TestMod
+   @|testmod\TestMod.java|451|454|Mod|class|net.minecraftforge.fml.common.Mod
+   @|testmod\TestMod.java|455|460|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|testmod\TestMod.java|461|468|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|469|475|MOD_ID|field|testmod.TestMod|MOD_ID
+   @|testmod\TestMod.java|477|481|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|testmod\TestMod.java|482|489|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|490|498|MOD_NAME|field|testmod.TestMod|MOD_NAME
+   @|testmod\TestMod.java|500|507|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|testmod\TestMod.java|508|515|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|516|523|VERSION|field|testmod.TestMod|VERSION
+   @|testmod\TestMod.java|538|545|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|570|576|String|class|java.lang.String
+   @|testmod\TestMod.java|570|576|String|class|java.lang.String
+   @|testmod\TestMod.java|577|583|MOD_ID|field|testmod.TestMod|MOD_ID|
+   @|testmod\TestMod.java|618|624|String|class|java.lang.String
+   @|testmod\TestMod.java|618|624|String|class|java.lang.String
+   @|testmod\TestMod.java|625|633|MOD_NAME|field|testmod.TestMod|MOD_NAME|
+   @|testmod\TestMod.java|669|675|String|class|java.lang.String
+   @|testmod\TestMod.java|669|675|String|class|java.lang.String
+   @|testmod\TestMod.java|676|683|VERSION|field|testmod.TestMod|VERSION|
+   @|testmod\TestMod.java|731|738|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|699|707|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|testmod\TestMod.java|708|714|MOD_ID|field|testmod.TestMod|MOD_ID
+   @|testmod\TestMod.java|731|738|TestMod|class|testmod.TestMod
+   @|testmod\TestMod.java|739|747|instance|field|testmod.TestMod|instance|
+   @|testmod\TestMod.java|841|846|Proxy|class|testmod.Proxy
+   @|testmod\TestMod.java|753|763|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|testmod\TestMod.java|764|774|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|testmod\TestMod.java|798|808|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|testmod\TestMod.java|841|846|Proxy|class|testmod.Proxy
+   @|testmod\TestMod.java|847|852|proxy|field|testmod.TestMod|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\TestMod.java|918|923|event|param|testmod.TestMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|testmod\TestMod.java|858|870|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|testmod\TestMod.java|884|891|preInit|method|testmod.TestMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\TestMod.java|892|917|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|testmod\TestMod.java|929|934|proxy|field|testmod.TestMod|proxy
+      @|testmod\TestMod.java|935|942|preInit|method|testmod.Proxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|testmod\TestMod.java|943|948|event|param|testmod.TestMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\TestMod.java|1012|1017|event|param|testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|testmod\TestMod.java|958|970|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|testmod\TestMod.java|984|988|init|method|testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\TestMod.java|989|1011|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|testmod\TestMod.java|1023|1028|proxy|field|testmod.TestMod|proxy
+      @|testmod\TestMod.java|1029|1033|init|method|testmod.Proxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|testmod\TestMod.java|1034|1039|event|param|testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\TestMod.java|1111|1116|event|param|testmod.TestMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|testmod\TestMod.java|1049|1061|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|testmod\TestMod.java|1075|1083|postInit|method|testmod.TestMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\TestMod.java|1084|1110|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|testmod\TestMod.java|1122|1127|proxy|field|testmod.TestMod|proxy
+      @|testmod\TestMod.java|1128|1136|postInit|method|testmod.Proxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|testmod\TestMod.java|1137|1142|event|param|testmod.TestMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : testmod.TestMod
+endProcessing "testmod\TestMod.java"
+
+startProcessing "testmod\block\BlockHappyMeal.java" md5: 7c5d5f544cd50b7828e656adc8613159
+Cache Hit!
+@|testmod\block\BlockHappyMeal.java|8|21|testmod.block|package|testmod.block|(file)
+Class Start: testmod.block.BlockHappyMeal
+   @|testmod\block\BlockHappyMeal.java|1573|1587|BlockHappyMeal|class|testmod.block.BlockHappyMeal
+   @|testmod\block\BlockHappyMeal.java|1596|1601|Block|class|net.minecraft.block.Block
+   @|testmod\block\BlockHappyMeal.java|1627|1644|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|testmod\block\BlockHappyMeal.java|1627|1644|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|testmod\block\BlockHappyMeal.java|1645|1651|FACING|field|testmod.block.BlockHappyMeal|FACING|
+   @|testmod\block\BlockHappyMeal.java|1654|1669|BlockHorizontal|class|net.minecraft.block.BlockHorizontal
+   @|testmod\block\BlockHappyMeal.java|1670|1676|FACING|field|net.minecraft.block.BlockHorizontal|FACING
+   Method Start: BlockHappyMeal()V
+      @|testmod\block\BlockHappyMeal.java|1687|1701|BlockHappyMeal|method|testmod.block.BlockHappyMeal|BlockHappyMeal|()V
+      @|testmod\block\BlockHappyMeal.java|1714|1722|Material|class|net.minecraft.block.material.Material
+      @|testmod\block\BlockHappyMeal.java|1723|1727|WOOD|field|net.minecraft.block.material.Material|WOOD
+      @|testmod\block\BlockHappyMeal.java|1729|1737|MapColor|class|net.minecraft.block.material.MapColor
+      @|testmod\block\BlockHappyMeal.java|1738|1741|RED|field|net.minecraft.block.material.MapColor|RED
+      @|testmod\block\BlockHappyMeal.java|1751|1765|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|testmod\block\BlockHappyMeal.java|1766|1778|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|testmod\block\BlockHappyMeal.java|1779|1790|DECORATIONS|field|net.minecraft.creativetab.CreativeTabs|DECORATIONS
+      @|testmod\block\BlockHappyMeal.java|1800|1811|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|testmod\block\BlockHappyMeal.java|1826|1841|setDefaultState|method|net.minecraft.block.Block|setDefaultState|(Lnet/minecraft/block/state/IBlockState;)V
+      @|testmod\block\BlockHappyMeal.java|1847|1857|blockState|field|net.minecraft.block.Block|blockState
+      @|testmod\block\BlockHappyMeal.java|1858|1870|getBaseState|method|net.minecraft.block.state.BlockStateContainer|getBaseState|()Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|1873|1885|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|1886|1892|FACING|field|testmod.block.BlockHappyMeal|FACING
+      @|testmod\block\BlockHappyMeal.java|1894|1904|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|testmod\block\BlockHappyMeal.java|1905|1910|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|testmod\block\BlockHappyMeal.java|1916|1931|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|testmod\block\BlockHappyMeal.java|1936|1952|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|testmod\block\BlockHappyMeal.java|1953|1960|TestMod|class|testmod.TestMod
+      @|testmod\block\BlockHappyMeal.java|1961|1967|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\block\BlockHappyMeal.java|1993|2011|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockHappyMeal()V
+   Method Start: quantityDropped(Ljava/util/Random;)I
+      @|testmod\block\BlockHappyMeal.java|2077|2083|random|param|testmod.block.BlockHappyMeal|quantityDropped|(Ljava/util/Random;)I|random|0
+      @|testmod\block\BlockHappyMeal.java|2033|2041|Override|class|java.lang.Override
+      @|testmod\block\BlockHappyMeal.java|2054|2069|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|testmod\block\BlockHappyMeal.java|2070|2076|Random|class|java.util.Random
+   Method End: quantityDropped(Ljava/util/Random;)I
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|testmod\block\BlockHappyMeal.java|2154|2159|state|param|testmod.block.BlockHappyMeal|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|testmod\block\BlockHappyMeal.java|2168|2172|rand|param|testmod.block.BlockHappyMeal|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|testmod\block\BlockHappyMeal.java|2178|2185|fortune|param|testmod.block.BlockHappyMeal|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|testmod\block\BlockHappyMeal.java|2105|2113|Override|class|java.lang.Override
+      @|testmod\block\BlockHappyMeal.java|2122|2126|Item|class|net.minecraft.item.Item
+      @|testmod\block\BlockHappyMeal.java|2127|2141|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|testmod\block\BlockHappyMeal.java|2142|2153|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|2161|2167|Random|class|java.util.Random
+      @|testmod\block\BlockHappyMeal.java|2198|2206|ModItems|class|testmod.init.ModItems
+      @|testmod\block\BlockHappyMeal.java|2207|2228|COOKED_CHICKEN_NUGGET|field|testmod.init.ModItems|COOKED_CHICKEN_NUGGET
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|testmod\block\BlockHappyMeal.java|2287|2292|state|param|testmod.block.BlockHappyMeal|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|testmod\block\BlockHappyMeal.java|2237|2245|Override|class|java.lang.Override
+      @|testmod\block\BlockHappyMeal.java|2262|2274|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|testmod\block\BlockHappyMeal.java|2275|2286|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|testmod\block\BlockHappyMeal.java|2366|2371|state|param|testmod.block.BlockHappyMeal|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|testmod\block\BlockHappyMeal.java|2318|2326|Override|class|java.lang.Override
+      @|testmod\block\BlockHappyMeal.java|2343|2353|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|testmod\block\BlockHappyMeal.java|2354|2365|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: getSelectedBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|testmod\block\BlockHappyMeal.java|2480|2485|state|param|testmod.block.BlockHappyMeal|getSelectedBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|state|0
+      @|testmod\block\BlockHappyMeal.java|2493|2500|worldIn|param|testmod.block.BlockHappyMeal|getSelectedBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|worldIn|1
+      @|testmod\block\BlockHappyMeal.java|2511|2514|pos|param|testmod.block.BlockHappyMeal|getSelectedBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|pos|2
+      @|testmod\block\BlockHappyMeal.java|2398|2406|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|testmod\block\BlockHappyMeal.java|2407|2411|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|testmod\block\BlockHappyMeal.java|2412|2418|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|testmod\block\BlockHappyMeal.java|2431|2444|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|testmod\block\BlockHappyMeal.java|2445|2467|getSelectedBoundingBox|method|net.minecraft.block.Block|getSelectedBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|testmod\block\BlockHappyMeal.java|2468|2479|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|2487|2492|World|class|net.minecraft.world.World
+      @|testmod\block\BlockHappyMeal.java|2502|2510|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|testmod\block\BlockHappyMeal.java|2541|2554|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|testmod\block\BlockHappyMeal.java|2593|2599|offset|method|net.minecraft.util.math.AxisAlignedBB|offset|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|testmod\block\BlockHappyMeal.java|2600|2603|pos|param|testmod.block.BlockHappyMeal|getSelectedBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|pos|2
+   Method End: getSelectedBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+   Method Start: getCollisionBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|testmod\block\BlockHappyMeal.java|2672|2682|blockState|param|testmod.block.BlockHappyMeal|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|blockState|0
+      @|testmod\block\BlockHappyMeal.java|2697|2704|worldIn|param|testmod.block.BlockHappyMeal|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|worldIn|1
+      @|testmod\block\BlockHappyMeal.java|2715|2718|pos|param|testmod.block.BlockHappyMeal|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|pos|2
+      @|testmod\block\BlockHappyMeal.java|2622|2635|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|testmod\block\BlockHappyMeal.java|2636|2659|getCollisionBoundingBox|method|net.minecraft.block.Block|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|testmod\block\BlockHappyMeal.java|2660|2671|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|2684|2696|IBlockAccess|class|net.minecraft.world.IBlockAccess
+      @|testmod\block\BlockHappyMeal.java|2706|2714|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|testmod\block\BlockHappyMeal.java|2745|2758|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+   Method End: getCollisionBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|2853|2860|worldIn|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|testmod\block\BlockHappyMeal.java|2871|2874|pos|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|testmod\block\BlockHappyMeal.java|2887|2893|facing|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|testmod\block\BlockHappyMeal.java|2901|2905|hitX|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|testmod\block\BlockHappyMeal.java|2913|2917|hitY|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|testmod\block\BlockHappyMeal.java|2925|2929|hitZ|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|testmod\block\BlockHappyMeal.java|2935|2939|meta|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|testmod\block\BlockHappyMeal.java|2958|2964|placer|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|testmod\block\BlockHappyMeal.java|2814|2825|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|2826|2846|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|2847|2852|World|class|net.minecraft.world.World
+      @|testmod\block\BlockHappyMeal.java|2862|2870|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|testmod\block\BlockHappyMeal.java|2876|2886|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|testmod\block\BlockHappyMeal.java|2941|2957|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|testmod\block\BlockHappyMeal.java|2980|2990|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|testmod\block\BlockHappyMeal.java|3004|3010|placer|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|testmod\block\BlockHappyMeal.java|3011|3030|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
+      @|testmod\block\BlockHappyMeal.java|3033|3040|rotateY|method|net.minecraft.util.EnumFacing|rotateY|()Lnet/minecraft/util/EnumFacing;
+      @|testmod\block\BlockHappyMeal.java|3065|3085|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3086|3093|worldIn|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|testmod\block\BlockHappyMeal.java|3095|3098|pos|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|testmod\block\BlockHappyMeal.java|3100|3106|facing|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|testmod\block\BlockHappyMeal.java|3108|3112|hitX|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|testmod\block\BlockHappyMeal.java|3114|3118|hitY|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|testmod\block\BlockHappyMeal.java|3120|3124|hitZ|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|testmod\block\BlockHappyMeal.java|3126|3130|meta|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|testmod\block\BlockHappyMeal.java|3132|3138|placer|param|testmod.block.BlockHappyMeal|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|testmod\block\BlockHappyMeal.java|3140|3152|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3153|3159|FACING|field|testmod.block.BlockHappyMeal|FACING
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3223|3227|meta|param|testmod.block.BlockHappyMeal|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|testmod\block\BlockHappyMeal.java|3190|3201|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|3202|3218|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3255|3270|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3273|3285|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|testmod\block\BlockHappyMeal.java|3286|3292|FACING|field|testmod.block.BlockHappyMeal|FACING
+      @|testmod\block\BlockHappyMeal.java|3294|3304|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|testmod\block\BlockHappyMeal.java|3305|3318|getHorizontal|method|net.minecraft.util.EnumFacing|getHorizontal|(I)Lnet/minecraft/util/EnumFacing;
+      @|testmod\block\BlockHappyMeal.java|3319|3323|meta|param|testmod.block.BlockHappyMeal|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|testmod\block\BlockHappyMeal.java|3380|3385|state|param|testmod.block.BlockHappyMeal|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|testmod\block\BlockHappyMeal.java|3351|3367|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|testmod\block\BlockHappyMeal.java|3368|3379|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|testmod\block\BlockHappyMeal.java|3430|3440|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|testmod\block\BlockHappyMeal.java|3441|3446|state|param|testmod.block.BlockHappyMeal|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|testmod\block\BlockHappyMeal.java|3447|3455|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|testmod\block\BlockHappyMeal.java|3456|3462|FACING|field|testmod.block.BlockHappyMeal|FACING
+      @|testmod\block\BlockHappyMeal.java|3465|3483|getHorizontalIndex|method|net.minecraft.util.EnumFacing|getHorizontalIndex|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|testmod\block\BlockHappyMeal.java|3523|3542|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|testmod\block\BlockHappyMeal.java|3543|3559|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|testmod\block\BlockHappyMeal.java|3587|3606|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|testmod\block\BlockHappyMeal.java|3617|3626|IProperty|class|net.minecraft.block.properties.IProperty
+      @|testmod\block\BlockHappyMeal.java|3630|3636|FACING|field|testmod.block.BlockHappyMeal|FACING
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+Class End  : testmod.block.BlockHappyMeal
+endProcessing "testmod\block\BlockHappyMeal.java"
+
+startProcessing "testmod\entity\EntityLad.java" md5: f063cc2d7e54dbf6acd74e439d155fc2
+Cache Hit!
+@|testmod\entity\EntityLad.java|8|22|testmod.entity|package|testmod.entity|(file)
+Class Start: testmod.entity.EntityLad
+   @|testmod\entity\EntityLad.java|991|1000|EntityLad|class|testmod.entity.EntityLad
+   @|testmod\entity\EntityLad.java|1009|1018|EntityMob|class|net.minecraft.entity.monster.EntityMob
+   Method Start: EntityLad(Lnet/minecraft/world/World;)V
+      @|testmod\entity\EntityLad.java|1046|1053|worldIn|param|testmod.entity.EntityLad|EntityLad|(Lnet/minecraft/world/World;)V|worldIn|0
+      @|testmod\entity\EntityLad.java|1030|1039|EntityLad|method|testmod.entity.EntityLad|EntityLad|(Lnet/minecraft/world/World;)V
+      @|testmod\entity\EntityLad.java|1040|1045|World|class|net.minecraft.world.World
+      @|testmod\entity\EntityLad.java|1065|1072|worldIn|param|testmod.entity.EntityLad|EntityLad|(Lnet/minecraft/world/World;)V|worldIn|0
+      @|testmod\entity\EntityLad.java|1082|1089|setSize|method|net.minecraft.entity.Entity|setSize|(FF)V
+   Method End: EntityLad(Lnet/minecraft/world/World;)V
+   Method Start: initEntityAI()V
+      @|testmod\entity\EntityLad.java|1123|1135|initEntityAI|method|net.minecraft.entity.EntityLiving|initEntityAI|()V
+      @|testmod\entity\EntityLad.java|1147|1152|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1153|1160|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1168|1184|EntityAISwimming|class|net.minecraft.entity.ai.EntityAISwimming
+      @|testmod\entity\EntityLad.java|1200|1205|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1206|1213|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1221|1234|EntityAIPanic|class|net.minecraft.entity.ai.EntityAIPanic
+      @|testmod\entity\EntityLad.java|1257|1262|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1263|1270|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1278|1291|EntityAITempt|class|net.minecraft.entity.ai.EntityAITempt
+      @|testmod\entity\EntityLad.java|1304|1312|ModItems|class|testmod.init.ModItems
+      @|testmod\entity\EntityLad.java|1313|1334|COOKED_CHICKEN_NUGGET|field|testmod.init.ModItems|COOKED_CHICKEN_NUGGET
+      @|testmod\entity\EntityLad.java|1352|1357|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1358|1365|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1373|1397|EntityAIWanderAvoidWater|class|net.minecraft.entity.ai.EntityAIWanderAvoidWater
+      @|testmod\entity\EntityLad.java|1419|1424|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1425|1432|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1440|1460|EntityAIWatchClosest|class|net.minecraft.entity.ai.EntityAIWatchClosest
+      @|testmod\entity\EntityLad.java|1467|1479|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|testmod\entity\EntityLad.java|1502|1507|tasks|field|net.minecraft.entity.EntityLiving|tasks
+      @|testmod\entity\EntityLad.java|1508|1515|addTask|method|net.minecraft.entity.ai.EntityAITasks|addTask|(ILnet/minecraft/entity/ai/EntityAIBase;)V
+      @|testmod\entity\EntityLad.java|1523|1539|EntityAILookIdle|class|net.minecraft.entity.ai.EntityAILookIdle
+   Method End: initEntityAI()V
+   Method Start: applyEntityAttributes()V
+      @|testmod\entity\EntityLad.java|1568|1589|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|testmod\entity\EntityLad.java|1602|1623|applyEntityAttributes|method|net.minecraft.entity.EntityLivingBase|applyEntityAttributes|()V
+      @|testmod\entity\EntityLad.java|1634|1652|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|testmod\entity\EntityLad.java|1653|1676|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes
+      @|testmod\entity\EntityLad.java|1677|1687|MAX_HEALTH|field|net.minecraft.entity.SharedMonsterAttributes|MAX_HEALTH
+      @|testmod\entity\EntityLad.java|1689|1701|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+      @|testmod\entity\EntityLad.java|1717|1735|getEntityAttribute|method|net.minecraft.entity.EntityLivingBase|getEntityAttribute|(Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;
+      @|testmod\entity\EntityLad.java|1736|1759|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes
+      @|testmod\entity\EntityLad.java|1760|1774|MOVEMENT_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|MOVEMENT_SPEED
+      @|testmod\entity\EntityLad.java|1776|1788|setBaseValue|method|net.minecraft.entity.ai.attributes.IAttributeInstance|setBaseValue|(D)V
+   Method End: applyEntityAttributes()V
+   Method Start: registerFixesLad(Lnet/minecraft/util/datafix/DataFixer;)V
+      @|testmod\entity\EntityLad.java|1848|1853|fixer|param|testmod.entity.EntityLad|registerFixesLad|(Lnet/minecraft/util/datafix/DataFixer;)V|fixer|0
+      @|testmod\entity\EntityLad.java|1821|1837|registerFixesLad|method|testmod.entity.EntityLad|registerFixesLad|(Lnet/minecraft/util/datafix/DataFixer;)V
+      @|testmod\entity\EntityLad.java|1838|1847|DataFixer|class|net.minecraft.util.datafix.DataFixer
+      @|testmod\entity\EntityLad.java|1859|1871|EntityLiving|class|net.minecraft.entity.EntityLiving
+      @|testmod\entity\EntityLad.java|1872|1888|registerFixesMob|method|net.minecraft.entity.EntityLiving|registerFixesMob|(Lnet/minecraft/util/datafix/DataFixer;Ljava/lang/Class;)V
+      @|testmod\entity\EntityLad.java|1889|1894|fixer|param|testmod.entity.EntityLad|registerFixesLad|(Lnet/minecraft/util/datafix/DataFixer;)V|fixer|0
+      @|testmod\entity\EntityLad.java|1896|1905|EntityLad|class|testmod.entity.EntityLad
+   Method End: registerFixesLad(Lnet/minecraft/util/datafix/DataFixer;)V
+Class End  : testmod.entity.EntityLad
+endProcessing "testmod\entity\EntityLad.java"
+
+startProcessing "testmod\init\ModBlocks.java" md5: 92d15e1ea88f7961c774e151e5307037
+Cache Hit!
+@|testmod\init\ModBlocks.java|8|20|testmod.init|package|testmod.init|(file)
+Class Start: testmod.init.ModBlocks
+   @|testmod\init\ModBlocks.java|685|694|ModBlocks|class|testmod.init.ModBlocks
+   @|testmod\init\ModBlocks.java|720|734|BlockHappyMeal|class|testmod.block.BlockHappyMeal
+   @|testmod\init\ModBlocks.java|720|734|BlockHappyMeal|class|testmod.block.BlockHappyMeal
+   @|testmod\init\ModBlocks.java|735|745|HAPPY_MEAL|field|testmod.init.ModBlocks|HAPPY_MEAL|
+   @|testmod\init\ModBlocks.java|752|766|BlockHappyMeal|class|testmod.block.BlockHappyMeal
+   Class Start: testmod.init.ModBlocks.RegistrationHandler
+      @|testmod\init\ModBlocks.java|774|796|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|testmod\init\ModBlocks.java|797|802|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|testmod\init\ModBlocks.java|805|812|TestMod|class|testmod.TestMod
+      @|testmod\init\ModBlocks.java|813|819|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\init\ModBlocks.java|842|861|RegistrationHandler|class|testmod.init.ModBlocks.RegistrationHandler
+      Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModBlocks.java|957|962|event|param|testmod.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModBlocks.java|870|884|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|testmod\init\ModBlocks.java|906|920|registerBlocks|method|testmod.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModBlocks.java|927|949|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|testmod\init\ModBlocks.java|950|955|Block|class|net.minecraft.block.Block
+         @|testmod\init\ModBlocks.java|969|974|Block|class|net.minecraft.block.Block
+         @|testmod\init\ModBlocks.java|992|1002|HAPPY_MEAL|field|testmod.init.ModBlocks|HAPPY_MEAL
+         @|testmod\init\ModBlocks.java|1022|1036|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+         @|testmod\init\ModBlocks.java|1037|1042|Block|class|net.minecraft.block.Block
+         @|testmod\init\ModBlocks.java|1055|1060|event|param|testmod.init.ModBlocks.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModBlocks.java|1061|1072|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|testmod\init\ModBlocks.java|1088|1099|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModBlocks.java|1209|1214|event|param|testmod.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModBlocks.java|1119|1133|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|testmod\init\ModBlocks.java|1155|1173|registerItemBlocks|method|testmod.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModBlocks.java|1180|1202|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|testmod\init\ModBlocks.java|1203|1207|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModBlocks.java|1221|1230|ItemBlock|class|net.minecraft.item.ItemBlock
+         @|testmod\init\ModBlocks.java|1251|1260|ItemBlock|class|net.minecraft.item.ItemBlock
+         @|testmod\init\ModBlocks.java|1261|1271|HAPPY_MEAL|field|testmod.init.ModBlocks|HAPPY_MEAL
+         @|testmod\init\ModBlocks.java|1292|1306|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+         @|testmod\init\ModBlocks.java|1307|1311|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModBlocks.java|1324|1329|event|param|testmod.init.ModBlocks.RegistrationHandler|registerItemBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModBlocks.java|1330|1341|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|testmod\init\ModBlocks.java|1348|1364|ResourceLocation|class|net.minecraft.util.ResourceLocation
+         @|testmod\init\ModBlocks.java|1382|1403|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+         @|testmod\init\ModBlocks.java|1427|1436|ItemBlock|class|net.minecraft.item.ItemBlock
+         @|testmod\init\ModBlocks.java|1457|1462|Block|class|net.minecraft.block.Block
+         @|testmod\init\ModBlocks.java|1476|1484|getBlock|method|net.minecraft.item.ItemBlock|getBlock|()Lnet/minecraft/block/Block;
+         @|testmod\init\ModBlocks.java|1501|1509|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|testmod\init\ModBlocks.java|1515|1530|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+         @|testmod\init\ModBlocks.java|1537|1552|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+         @|testmod\init\ModBlocks.java|1582|1603|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+         @|testmod\init\ModBlocks.java|1609|1624|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+         @|testmod\init\ModBlocks.java|1627|1635|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|testmod\init\ModBlocks.java|1657|1668|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+         @|testmod\init\ModBlocks.java|1669|1699|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      Method End: registerItemBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : testmod.init.ModBlocks.RegistrationHandler
+Class End  : testmod.init.ModBlocks
+endProcessing "testmod\init\ModBlocks.java"
+
+startProcessing "testmod\init\ModEntities.java" md5: 54e27d91709620b24d803f476793492f
+Cache Hit!
+@|testmod\init\ModEntities.java|8|20|testmod.init|package|testmod.init|(file)
+Class Start: testmod.init.ModEntities
+   @|testmod\init\ModEntities.java|1358|1369|ModEntities|class|testmod.init.ModEntities
+   Class Start: testmod.init.ModEntities.RegistrationHandler
+      @|testmod\init\ModEntities.java|1376|1398|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|testmod\init\ModEntities.java|1399|1404|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|testmod\init\ModEntities.java|1407|1414|TestMod|class|testmod.TestMod
+      @|testmod\init\ModEntities.java|1415|1421|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\init\ModEntities.java|1444|1463|RegistrationHandler|class|testmod.init.ModEntities.RegistrationHandler
+      Method Start: registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModEntities.java|1565|1570|event|param|testmod.init.ModEntities.RegistrationHandler|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModEntities.java|1470|1484|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|testmod\init\ModEntities.java|1506|1522|registerEntities|method|testmod.init.ModEntities.RegistrationHandler|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModEntities.java|1529|1551|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|testmod\init\ModEntities.java|1552|1563|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry
+         @|testmod\init\ModEntities.java|1577|1588|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry
+         @|testmod\init\ModEntities.java|1609|1627|EntityEntryBuilder|class|net.minecraftforge.fml.common.registry.EntityEntryBuilder
+         @|testmod\init\ModEntities.java|1628|1634|create|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|create|()Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1653|1659|entity|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|entity|(Ljava/lang/Class;)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1660|1669|EntityLad|class|testmod.entity.EntityLad
+         @|testmod\init\ModEntities.java|1693|1695|id|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|id|(Lnet/minecraft/util/ResourceLocation;I)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1700|1716|ResourceLocation|class|net.minecraft.util.ResourceLocation
+         @|testmod\init\ModEntities.java|1717|1724|TestMod|class|testmod.TestMod
+         @|testmod\init\ModEntities.java|1725|1731|MOD_ID|field|testmod.TestMod|MOD_ID
+         @|testmod\init\ModEntities.java|1760|1764|name|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|name|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1788|1795|tracker|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|tracker|(IIZ)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1826|1829|egg|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|egg|(II)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1830|1838|MapColor|class|net.minecraft.block.material.MapColor
+         @|testmod\init\ModEntities.java|1839|1843|BLUE|field|net.minecraft.block.material.MapColor|BLUE
+         @|testmod\init\ModEntities.java|1844|1854|colorValue|field|net.minecraft.block.material.MapColor|colorValue
+         @|testmod\init\ModEntities.java|1856|1864|MapColor|class|net.minecraft.block.material.MapColor
+         @|testmod\init\ModEntities.java|1865|1871|YELLOW|field|net.minecraft.block.material.MapColor|YELLOW
+         @|testmod\init\ModEntities.java|1872|1882|colorValue|field|net.minecraft.block.material.MapColor|colorValue
+         @|testmod\init\ModEntities.java|1900|1905|spawn|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|spawn|(Lnet/minecraft/entity/EnumCreatureType;IIILjava/lang/Iterable;)Lnet/minecraftforge/fml/common/registry/EntityEntryBuilder;
+         @|testmod\init\ModEntities.java|1906|1922|EnumCreatureType|class|net.minecraft.entity.EnumCreatureType
+         @|testmod\init\ModEntities.java|1923|1931|CREATURE|field|net.minecraft.entity.EnumCreatureType|CREATURE
+         @|testmod\init\ModEntities.java|1943|1958|BiomeDictionary|class|net.minecraftforge.common.BiomeDictionary
+         @|testmod\init\ModEntities.java|1959|1968|getBiomes|method|net.minecraftforge.common.BiomeDictionary|getBiomes|(Lnet/minecraftforge/common/BiomeDictionary$Type;)Ljava/util/Set;
+         @|testmod\init\ModEntities.java|1969|1989|BiomeDictionary.Type|class|net.minecraftforge.common.BiomeDictionary.Type
+         @|testmod\init\ModEntities.java|1990|1996|FOREST|field|net.minecraftforge.common.BiomeDictionary.Type|FOREST
+         @|testmod\init\ModEntities.java|2015|2020|build|method|net.minecraftforge.fml.common.registry.EntityEntryBuilder|build|()Lnet/minecraftforge/fml/common/registry/EntityEntry;
+         @|testmod\init\ModEntities.java|2033|2038|event|param|testmod.init.ModEntities.RegistrationHandler|registerEntities|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModEntities.java|2039|2050|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|testmod\init\ModEntities.java|2053|2064|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      Method End: registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : testmod.init.ModEntities.RegistrationHandler
+Class End  : testmod.init.ModEntities
+endProcessing "testmod\init\ModEntities.java"
+
+startProcessing "testmod\init\ModItems.java" md5: 94a991f5e9a68ccbc8dfad26c9252cfa
+Cache Hit!
+@|testmod\init\ModItems.java|8|20|testmod.init|package|testmod.init|(file)
+Class Start: testmod.init.ModItems
+   @|testmod\init\ModItems.java|760|768|ModItems|class|testmod.init.ModItems
+   @|testmod\init\ModItems.java|794|811|ItemChickenNugget|class|testmod.item.ItemChickenNugget
+   @|testmod\init\ModItems.java|794|811|ItemChickenNugget|class|testmod.item.ItemChickenNugget
+   @|testmod\init\ModItems.java|812|826|CHICKEN_NUGGET|field|testmod.init.ModItems|CHICKEN_NUGGET|
+   @|testmod\init\ModItems.java|833|850|ItemChickenNugget|class|testmod.item.ItemChickenNugget
+   @|testmod\init\ModItems.java|875|898|ItemCookedChickenNugget|class|testmod.item.ItemCookedChickenNugget
+   @|testmod\init\ModItems.java|875|898|ItemCookedChickenNugget|class|testmod.item.ItemCookedChickenNugget
+   @|testmod\init\ModItems.java|899|920|COOKED_CHICKEN_NUGGET|field|testmod.init.ModItems|COOKED_CHICKEN_NUGGET|
+   @|testmod\init\ModItems.java|927|950|ItemCookedChickenNugget|class|testmod.item.ItemCookedChickenNugget
+   Class Start: testmod.init.ModItems.RegistrationHandler
+      @|testmod\init\ModItems.java|958|980|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|testmod\init\ModItems.java|981|986|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+      @|testmod\init\ModItems.java|989|996|TestMod|class|testmod.TestMod
+      @|testmod\init\ModItems.java|997|1003|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\init\ModItems.java|1026|1045|RegistrationHandler|class|testmod.init.ModItems.RegistrationHandler
+      Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModItems.java|1136|1141|event|param|testmod.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModItems.java|1051|1065|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|testmod\init\ModItems.java|1087|1100|registerItems|method|testmod.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|testmod\init\ModItems.java|1107|1129|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|testmod\init\ModItems.java|1130|1134|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModItems.java|1148|1152|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModItems.java|1169|1183|CHICKEN_NUGGET|field|testmod.init.ModItems|CHICKEN_NUGGET
+         @|testmod\init\ModItems.java|1189|1210|COOKED_CHICKEN_NUGGET|field|testmod.init.ModItems|COOKED_CHICKEN_NUGGET
+         @|testmod\init\ModItems.java|1230|1244|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+         @|testmod\init\ModItems.java|1245|1249|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModItems.java|1262|1267|event|param|testmod.init.ModItems.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|testmod\init\ModItems.java|1268|1279|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|testmod\init\ModItems.java|1286|1307|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+         @|testmod\init\ModItems.java|1331|1335|Item|class|net.minecraft.item.Item
+         @|testmod\init\ModItems.java|1365|1373|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+         @|testmod\init\ModItems.java|1405|1426|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+         @|testmod\init\ModItems.java|1432|1447|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+         @|testmod\init\ModItems.java|1450|1458|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|testmod\init\ModItems.java|1480|1491|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+         @|testmod\init\ModItems.java|1492|1522|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : testmod.init.ModItems.RegistrationHandler
+Class End  : testmod.init.ModItems
+endProcessing "testmod\init\ModItems.java"
+
+startProcessing "testmod\init\ModRecipes.java" md5: cc1a3f1a49803dfccd17a8883ae56e69
+Cache Hit!
+@|testmod\init\ModRecipes.java|8|20|testmod.init|package|testmod.init|(file)
+Class Start: testmod.init.ModRecipes
+   @|testmod\init\ModRecipes.java|134|144|ModRecipes|class|testmod.init.ModRecipes
+   Method Start: init()V
+      @|testmod\init\ModRecipes.java|169|173|init|method|testmod.init.ModRecipes|init|()V
+      @|testmod\init\ModRecipes.java|180|192|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|testmod\init\ModRecipes.java|193|204|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|testmod\init\ModRecipes.java|205|213|ModItems|class|testmod.init.ModItems
+      @|testmod\init\ModRecipes.java|214|228|CHICKEN_NUGGET|field|testmod.init.ModItems|CHICKEN_NUGGET
+      @|testmod\init\ModRecipes.java|234|243|ItemStack|class|net.minecraft.item.ItemStack
+      @|testmod\init\ModRecipes.java|244|252|ModItems|class|testmod.init.ModItems
+      @|testmod\init\ModRecipes.java|253|274|COOKED_CHICKEN_NUGGET|field|testmod.init.ModItems|COOKED_CHICKEN_NUGGET
+   Method End: init()V
+Class End  : testmod.init.ModRecipes
+endProcessing "testmod\init\ModRecipes.java"
+
+startProcessing "testmod\item\ItemChickenNugget.java" md5: 6cf7d1dc0b44e2884b72c6c4739ab2cb
+Cache Hit!
+@|testmod\item\ItemChickenNugget.java|8|20|testmod.item|package|testmod.item|(file)
+Class Start: testmod.item.ItemChickenNugget
+   @|testmod\item\ItemChickenNugget.java|379|396|ItemChickenNugget|class|testmod.item.ItemChickenNugget
+   @|testmod\item\ItemChickenNugget.java|405|413|ItemFood|class|net.minecraft.item.ItemFood
+   Method Start: ItemChickenNugget()V
+      @|testmod\item\ItemChickenNugget.java|426|443|ItemChickenNugget|method|testmod.item.ItemChickenNugget|ItemChickenNugget|()V
+      @|testmod\item\ItemChickenNugget.java|474|489|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|testmod\item\ItemChickenNugget.java|497|512|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|testmod\item\ItemChickenNugget.java|517|533|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|testmod\item\ItemChickenNugget.java|534|541|TestMod|class|testmod.TestMod
+      @|testmod\item\ItemChickenNugget.java|542|548|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\item\ItemChickenNugget.java|578|596|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+   Method End: ItemChickenNugget()V
+   Method Start: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|testmod\item\ItemChickenNugget.java|670|675|stack|param|testmod.item.ItemChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|stack|0
+      @|testmod\item\ItemChickenNugget.java|683|690|worldIn|param|testmod.item.ItemChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|worldIn|1
+      @|testmod\item\ItemChickenNugget.java|705|711|player|param|testmod.item.ItemChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|testmod\item\ItemChickenNugget.java|623|631|Override|class|java.lang.Override
+      @|testmod\item\ItemChickenNugget.java|648|659|onFoodEaten|method|net.minecraft.item.ItemFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|testmod\item\ItemChickenNugget.java|660|669|ItemStack|class|net.minecraft.item.ItemStack
+      @|testmod\item\ItemChickenNugget.java|677|682|World|class|net.minecraft.world.World
+      @|testmod\item\ItemChickenNugget.java|692|704|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|testmod\item\ItemChickenNugget.java|728|735|worldIn|param|testmod.item.ItemChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|worldIn|1
+      @|testmod\item\ItemChickenNugget.java|736|744|isRemote|field|net.minecraft.world.World|isRemote
+      @|testmod\item\ItemChickenNugget.java|764|770|player|param|testmod.item.ItemChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|testmod\item\ItemChickenNugget.java|771|786|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|testmod\item\ItemChickenNugget.java|791|803|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|testmod\item\ItemChickenNugget.java|804|814|MobEffects|class|net.minecraft.init.MobEffects
+      @|testmod\item\ItemChickenNugget.java|815|821|HUNGER|field|net.minecraft.init.MobEffects|HUNGER
+   Method End: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+Class End  : testmod.item.ItemChickenNugget
+endProcessing "testmod\item\ItemChickenNugget.java"
+
+startProcessing "testmod\item\ItemCookedChickenNugget.java" md5: 40be27b11c1fef2ca9c5436d1f3ab1a4
+Cache Hit!
+@|testmod\item\ItemCookedChickenNugget.java|8|20|testmod.item|package|testmod.item|(file)
+Class Start: testmod.item.ItemCookedChickenNugget
+   @|testmod\item\ItemCookedChickenNugget.java|876|899|ItemCookedChickenNugget|class|testmod.item.ItemCookedChickenNugget
+   @|testmod\item\ItemCookedChickenNugget.java|908|916|ItemFood|class|net.minecraft.item.ItemFood
+   Method Start: ItemCookedChickenNugget()V
+      @|testmod\item\ItemCookedChickenNugget.java|929|952|ItemCookedChickenNugget|method|testmod.item.ItemCookedChickenNugget|ItemCookedChickenNugget|()V
+      @|testmod\item\ItemCookedChickenNugget.java|983|998|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|testmod\item\ItemCookedChickenNugget.java|1006|1021|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|testmod\item\ItemCookedChickenNugget.java|1026|1042|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|testmod\item\ItemCookedChickenNugget.java|1043|1050|TestMod|class|testmod.TestMod
+      @|testmod\item\ItemCookedChickenNugget.java|1051|1057|MOD_ID|field|testmod.TestMod|MOD_ID
+      @|testmod\item\ItemCookedChickenNugget.java|1094|1112|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+   Method End: ItemCookedChickenNugget()V
+   Method Start: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|testmod\item\ItemCookedChickenNugget.java|1193|1198|stack|param|testmod.item.ItemCookedChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|stack|0
+      @|testmod\item\ItemCookedChickenNugget.java|1206|1213|worldIn|param|testmod.item.ItemCookedChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|worldIn|1
+      @|testmod\item\ItemCookedChickenNugget.java|1228|1234|player|param|testmod.item.ItemCookedChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|testmod\item\ItemCookedChickenNugget.java|1146|1154|Override|class|java.lang.Override
+      @|testmod\item\ItemCookedChickenNugget.java|1171|1182|onFoodEaten|method|net.minecraft.item.ItemFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|testmod\item\ItemCookedChickenNugget.java|1183|1192|ItemStack|class|net.minecraft.item.ItemStack
+      @|testmod\item\ItemCookedChickenNugget.java|1200|1205|World|class|net.minecraft.world.World
+      @|testmod\item\ItemCookedChickenNugget.java|1215|1227|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|testmod\item\ItemCookedChickenNugget.java|1251|1258|worldIn|param|testmod.item.ItemCookedChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|worldIn|1
+      @|testmod\item\ItemCookedChickenNugget.java|1259|1267|isRemote|field|net.minecraft.world.World|isRemote
+      @|testmod\item\ItemCookedChickenNugget.java|1287|1293|player|param|testmod.item.ItemCookedChickenNugget|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|testmod\item\ItemCookedChickenNugget.java|1294|1309|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|testmod\item\ItemCookedChickenNugget.java|1314|1326|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|testmod\item\ItemCookedChickenNugget.java|1327|1337|MobEffects|class|net.minecraft.init.MobEffects
+      @|testmod\item\ItemCookedChickenNugget.java|1338|1346|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
+   Method End: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+Class End  : testmod.item.ItemCookedChickenNugget
+endProcessing "testmod\item\ItemCookedChickenNugget.java"
+
+startProcessing "testmod\model\ModelLad.java" md5: 707d2f548519ddbee87ec053510621b7
+Cache Hit!
+@|testmod\model\ModelLad.java|8|21|testmod.model|package|testmod.model|(file)
+Class Start: testmod.model.ModelLad
+   @|testmod\model\ModelLad.java|297|305|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+   @|testmod\model\ModelLad.java|306|310|Side|class|net.minecraftforge.fml.relauncher.Side
+   @|testmod\model\ModelLad.java|311|317|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|testmod\model\ModelLad.java|332|340|ModelLad|class|testmod.model.ModelLad
+   @|testmod\model\ModelLad.java|349|358|ModelBase|class|net.minecraft.client.model.ModelBase
+   @|testmod\model\ModelLad.java|370|383|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|370|383|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|384|388|head|field|testmod.model.ModelLad|head|
+   @|testmod\model\ModelLad.java|398|411|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|398|411|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|412|424|creeperArmor|field|testmod.model.ModelLad|creeperArmor|
+   @|testmod\model\ModelLad.java|434|447|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|434|447|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|448|452|body|field|testmod.model.ModelLad|body|
+   @|testmod\model\ModelLad.java|462|475|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|462|475|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|476|480|leg1|field|testmod.model.ModelLad|leg1|
+   @|testmod\model\ModelLad.java|490|503|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|490|503|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|504|508|leg2|field|testmod.model.ModelLad|leg2|
+   @|testmod\model\ModelLad.java|518|531|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|518|531|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|532|536|leg3|field|testmod.model.ModelLad|leg3|
+   @|testmod\model\ModelLad.java|546|559|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|546|559|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+   @|testmod\model\ModelLad.java|560|564|leg4|field|testmod.model.ModelLad|leg4|
+   Method Start: ModelLad()V
+      @|testmod\model\ModelLad.java|575|583|ModelLad|method|testmod.model.ModelLad|ModelLad|()V
+   Method End: ModelLad()V
+   Method Start: ModelLad(F)V
+      @|testmod\model\ModelLad.java|629|634|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|614|622|ModelLad|method|testmod.model.ModelLad|ModelLad|(F)V
+      @|testmod\model\ModelLad.java|658|662|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|669|682|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|703|707|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|708|714|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|745|750|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|760|764|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|765|781|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|808|820|creeperArmor|field|testmod.model.ModelLad|creeperArmor
+      @|testmod\model\ModelLad.java|827|840|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|862|874|creeperArmor|field|testmod.model.ModelLad|creeperArmor
+      @|testmod\model\ModelLad.java|875|881|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|912|917|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|934|946|creeperArmor|field|testmod.model.ModelLad|creeperArmor
+      @|testmod\model\ModelLad.java|947|963|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|990|994|body|field|testmod.model.ModelLad|body
+      @|testmod\model\ModelLad.java|1001|1014|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|1037|1041|body|field|testmod.model.ModelLad|body
+      @|testmod\model\ModelLad.java|1042|1048|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|1079|1084|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|1094|1098|body|field|testmod.model.ModelLad|body
+      @|testmod\model\ModelLad.java|1099|1115|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|1142|1146|leg1|field|testmod.model.ModelLad|leg1
+      @|testmod\model\ModelLad.java|1153|1166|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|1188|1192|leg1|field|testmod.model.ModelLad|leg1
+      @|testmod\model\ModelLad.java|1193|1199|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|1229|1234|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|1244|1248|leg1|field|testmod.model.ModelLad|leg1
+      @|testmod\model\ModelLad.java|1249|1265|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|1294|1298|leg2|field|testmod.model.ModelLad|leg2
+      @|testmod\model\ModelLad.java|1305|1318|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|1340|1344|leg2|field|testmod.model.ModelLad|leg2
+      @|testmod\model\ModelLad.java|1345|1351|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|1381|1386|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|1396|1400|leg2|field|testmod.model.ModelLad|leg2
+      @|testmod\model\ModelLad.java|1401|1417|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|1445|1449|leg3|field|testmod.model.ModelLad|leg3
+      @|testmod\model\ModelLad.java|1456|1469|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|1491|1495|leg3|field|testmod.model.ModelLad|leg3
+      @|testmod\model\ModelLad.java|1496|1502|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|1532|1537|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|1547|1551|leg3|field|testmod.model.ModelLad|leg3
+      @|testmod\model\ModelLad.java|1552|1568|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+      @|testmod\model\ModelLad.java|1598|1602|leg4|field|testmod.model.ModelLad|leg4
+      @|testmod\model\ModelLad.java|1609|1622|ModelRenderer|class|net.minecraft.client.model.ModelRenderer
+      @|testmod\model\ModelLad.java|1644|1648|leg4|field|testmod.model.ModelLad|leg4
+      @|testmod\model\ModelLad.java|1649|1655|addBox|method|net.minecraft.client.model.ModelRenderer|addBox|(FFFIIIF)V
+      @|testmod\model\ModelLad.java|1685|1690|scale|param|testmod.model.ModelLad|ModelLad|(F)V|scale|0
+      @|testmod\model\ModelLad.java|1700|1704|leg4|field|testmod.model.ModelLad|leg4
+      @|testmod\model\ModelLad.java|1705|1721|setRotationPoint|method|net.minecraft.client.model.ModelRenderer|setRotationPoint|(FFF)V
+   Method End: ModelLad(F)V
+   Method Start: render(Lnet/minecraft/entity/Entity;FFFFFF)V
+      @|testmod\model\ModelLad.java|1774|1782|entityIn|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|entityIn|0
+      @|testmod\model\ModelLad.java|1790|1799|limbSwing|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|limbSwing|1
+      @|testmod\model\ModelLad.java|1807|1822|limbSwingAmount|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|limbSwingAmount|2
+      @|testmod\model\ModelLad.java|1830|1840|ageInTicks|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|ageInTicks|3
+      @|testmod\model\ModelLad.java|1848|1858|netHeadYaw|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|netHeadYaw|4
+      @|testmod\model\ModelLad.java|1866|1875|headPitch|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|headPitch|5
+      @|testmod\model\ModelLad.java|1883|1888|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|1760|1766|render|method|net.minecraft.client.model.ModelBase|render|(Lnet/minecraft/entity/Entity;FFFFFF)V
+      @|testmod\model\ModelLad.java|1767|1773|Entity|class|net.minecraft.entity.Entity
+      @|testmod\model\ModelLad.java|1899|1916|setRotationAngles|method|net.minecraft.client.model.ModelBase|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V
+      @|testmod\model\ModelLad.java|1917|1926|limbSwing|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|limbSwing|1
+      @|testmod\model\ModelLad.java|1928|1943|limbSwingAmount|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|limbSwingAmount|2
+      @|testmod\model\ModelLad.java|1945|1955|ageInTicks|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|ageInTicks|3
+      @|testmod\model\ModelLad.java|1957|1967|netHeadYaw|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|netHeadYaw|4
+      @|testmod\model\ModelLad.java|1969|1978|headPitch|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|headPitch|5
+      @|testmod\model\ModelLad.java|1980|1985|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|1987|1995|entityIn|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|entityIn|0
+      @|testmod\model\ModelLad.java|2005|2009|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|2010|2016|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2017|2022|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|2032|2036|body|field|testmod.model.ModelLad|body
+      @|testmod\model\ModelLad.java|2037|2043|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2044|2049|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|2059|2063|leg1|field|testmod.model.ModelLad|leg1
+      @|testmod\model\ModelLad.java|2064|2070|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2071|2076|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|2086|2090|leg2|field|testmod.model.ModelLad|leg2
+      @|testmod\model\ModelLad.java|2091|2097|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2098|2103|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|2113|2117|leg3|field|testmod.model.ModelLad|leg3
+      @|testmod\model\ModelLad.java|2118|2124|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2125|2130|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+      @|testmod\model\ModelLad.java|2140|2144|leg4|field|testmod.model.ModelLad|leg4
+      @|testmod\model\ModelLad.java|2145|2151|render|method|net.minecraft.client.model.ModelRenderer|render|(F)V
+      @|testmod\model\ModelLad.java|2152|2157|scale|param|testmod.model.ModelLad|render|(Lnet/minecraft/entity/Entity;FFFFFF)V|scale|6
+   Method End: render(Lnet/minecraft/entity/Entity;FFFFFF)V
+   Method Start: setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V
+      @|testmod\model\ModelLad.java|2202|2211|limbSwing|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|testmod\model\ModelLad.java|2219|2234|limbSwingAmount|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|testmod\model\ModelLad.java|2242|2252|ageInTicks|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|ageInTicks|2
+      @|testmod\model\ModelLad.java|2260|2270|netHeadYaw|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|netHeadYaw|3
+      @|testmod\model\ModelLad.java|2278|2287|headPitch|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|headPitch|4
+      @|testmod\model\ModelLad.java|2295|2306|scaleFactor|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|scaleFactor|5
+      @|testmod\model\ModelLad.java|2315|2323|entityIn|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|entityIn|6
+      @|testmod\model\ModelLad.java|2178|2195|setRotationAngles|method|net.minecraft.client.model.ModelBase|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V
+      @|testmod\model\ModelLad.java|2308|2314|Entity|class|net.minecraft.entity.Entity
+      @|testmod\model\ModelLad.java|2340|2344|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|2345|2357|rotateAngleY|field|net.minecraft.client.model.ModelRenderer|rotateAngleY
+      @|testmod\model\ModelLad.java|2360|2370|netHeadYaw|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|netHeadYaw|3
+      @|testmod\model\ModelLad.java|2400|2404|head|field|testmod.model.ModelLad|head
+      @|testmod\model\ModelLad.java|2405|2417|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|testmod\model\ModelLad.java|2420|2429|headPitch|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|headPitch|4
+      @|testmod\model\ModelLad.java|2459|2463|leg1|field|testmod.model.ModelLad|leg1
+      @|testmod\model\ModelLad.java|2464|2476|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|testmod\model\ModelLad.java|2479|2489|MathHelper|class|net.minecraft.util.math.MathHelper
+      @|testmod\model\ModelLad.java|2490|2493|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|testmod\model\ModelLad.java|2494|2503|limbSwing|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|testmod\model\ModelLad.java|2524|2539|limbSwingAmount|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|testmod\model\ModelLad.java|2554|2558|leg2|field|testmod.model.ModelLad|leg2
+      @|testmod\model\ModelLad.java|2559|2571|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|testmod\model\ModelLad.java|2574|2584|MathHelper|class|net.minecraft.util.math.MathHelper
+      @|testmod\model\ModelLad.java|2585|2588|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|testmod\model\ModelLad.java|2589|2598|limbSwing|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|testmod\model\ModelLad.java|2618|2622|Math|class|java.lang.Math
+      @|testmod\model\ModelLad.java|2623|2625|PI|field|java.lang.Math|PI
+      @|testmod\model\ModelLad.java|2636|2651|limbSwingAmount|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|testmod\model\ModelLad.java|2666|2670|leg3|field|testmod.model.ModelLad|leg3
+      @|testmod\model\ModelLad.java|2671|2683|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|testmod\model\ModelLad.java|2686|2696|MathHelper|class|net.minecraft.util.math.MathHelper
+      @|testmod\model\ModelLad.java|2697|2700|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|testmod\model\ModelLad.java|2701|2710|limbSwing|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|testmod\model\ModelLad.java|2730|2734|Math|class|java.lang.Math
+      @|testmod\model\ModelLad.java|2735|2737|PI|field|java.lang.Math|PI
+      @|testmod\model\ModelLad.java|2748|2763|limbSwingAmount|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+      @|testmod\model\ModelLad.java|2778|2782|leg4|field|testmod.model.ModelLad|leg4
+      @|testmod\model\ModelLad.java|2783|2795|rotateAngleX|field|net.minecraft.client.model.ModelRenderer|rotateAngleX
+      @|testmod\model\ModelLad.java|2798|2808|MathHelper|class|net.minecraft.util.math.MathHelper
+      @|testmod\model\ModelLad.java|2809|2812|cos|method|net.minecraft.util.math.MathHelper|cos|(F)F
+      @|testmod\model\ModelLad.java|2813|2822|limbSwing|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwing|0
+      @|testmod\model\ModelLad.java|2843|2858|limbSwingAmount|param|testmod.model.ModelLad|setRotationAngles|(FFFFFFLnet/minecraft/entity/Entity;)V|limbSwingAmount|1
+   Method End: setRotationAngles(FFFFFFLnet/minecraft/entity/Entity;)V
+Class End  : testmod.model.ModelLad
+endProcessing "testmod\model\ModelLad.java"
+
+startProcessing "testmod\render\RenderFactories.java" md5: 4bf0c728e4dd87ba0dbf788be1c7b68b
+Cache Hit!
+@|testmod\render\RenderFactories.java|8|22|testmod.render|package|testmod.render|(file)
+Class Start: testmod.render.RenderFactories
+   @|testmod\render\RenderFactories.java|310|325|RenderFactories|class|testmod.render.RenderFactories
+   Method Start: registerEntityRenderers()V
+      @|testmod\render\RenderFactories.java|349|372|registerEntityRenderers|method|testmod.render.RenderFactories|registerEntityRenderers|()V
+      @|testmod\render\RenderFactories.java|389|406|RenderingRegistry|class|net.minecraftforge.fml.client.registry.RenderingRegistry
+      @|testmod\render\RenderFactories.java|407|437|registerEntityRenderingHandler|method|net.minecraftforge.fml.client.registry.RenderingRegistry|registerEntityRenderingHandler|(Ljava/lang/Class;Lnet/minecraftforge/fml/client/registry/IRenderFactory;)V
+      @|testmod\render\RenderFactories.java|438|447|EntityLad|class|testmod.entity.EntityLad
+      @|testmod\render\RenderFactories.java|455|477|RenderFactoryEntityLad|class|testmod.render.RenderFactories.RenderFactoryEntityLad
+      @|testmod\render\RenderFactories.java|478|486|INSTANCE|field|testmod.render.RenderFactories.RenderFactoryEntityLad|INSTANCE
+   Method End: registerEntityRenderers()V
+   Class Start: testmod.render.RenderFactories.RenderFactoryEntityLad
+      @|testmod\render\RenderFactories.java|520|542|RenderFactoryEntityLad|class|testmod.render.RenderFactories.RenderFactoryEntityLad
+      @|testmod\render\RenderFactories.java|554|568|IRenderFactory|class|net.minecraftforge.fml.client.registry.IRenderFactory
+      @|testmod\render\RenderFactories.java|569|578|EntityLad|class|testmod.entity.EntityLad
+      @|testmod\render\RenderFactories.java|614|636|RenderFactoryEntityLad|class|testmod.render.RenderFactories.RenderFactoryEntityLad
+      @|testmod\render\RenderFactories.java|614|636|RenderFactoryEntityLad|class|testmod.render.RenderFactories.RenderFactoryEntityLad
+      @|testmod\render\RenderFactories.java|637|645|INSTANCE|field|testmod.render.RenderFactories.RenderFactoryEntityLad|INSTANCE|
+      @|testmod\render\RenderFactories.java|652|674|RenderFactoryEntityLad|class|testmod.render.RenderFactories.RenderFactoryEntityLad
+      Method Start: createRenderFor(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+         @|testmod\render\RenderFactories.java|764|771|manager|param|testmod.render.RenderFactories.RenderFactoryEntityLad|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;|manager|0
+         @|testmod\render\RenderFactories.java|692|700|Override|class|java.lang.Override
+         @|testmod\render\RenderFactories.java|716|722|Render|class|net.minecraft.client.renderer.entity.Render
+         @|testmod\render\RenderFactories.java|723|732|EntityLad|class|testmod.entity.EntityLad
+         @|testmod\render\RenderFactories.java|734|749|createRenderFor|method|net.minecraftforge.fml.client.registry.IRenderFactory|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+         @|testmod\render\RenderFactories.java|750|763|RenderManager|class|net.minecraft.client.renderer.entity.RenderManager
+         @|testmod\render\RenderFactories.java|806|815|RenderLad|class|testmod.render.RenderLad
+         @|testmod\render\RenderFactories.java|816|823|manager|param|testmod.render.RenderFactories.RenderFactoryEntityLad|createRenderFor|(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;|manager|0
+      Method End: createRenderFor(Lnet/minecraft/client/renderer/entity/RenderManager;)Lnet/minecraft/client/renderer/entity/Render;
+   Class End  : testmod.render.RenderFactories.RenderFactoryEntityLad
+Class End  : testmod.render.RenderFactories
+endProcessing "testmod\render\RenderFactories.java"
+
+startProcessing "testmod\render\RenderLad.java" md5: ee2a9a2ea1932132f805b5c73ebdf114
+Cache Hit!
+@|testmod\render\RenderLad.java|8|22|testmod.render|package|testmod.render|(file)
+Class Start: testmod.render.RenderLad
+   @|testmod\render\RenderLad.java|673|681|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+   @|testmod\render\RenderLad.java|682|686|Side|class|net.minecraftforge.fml.relauncher.Side
+   @|testmod\render\RenderLad.java|687|693|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|testmod\render\RenderLad.java|708|717|RenderLad|class|testmod.render.RenderLad
+   @|testmod\render\RenderLad.java|726|732|Render|class|net.minecraft.client.renderer.entity.Render
+   @|testmod\render\RenderLad.java|733|742|EntityLad|class|testmod.entity.EntityLad
+   @|testmod\render\RenderLad.java|768|784|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|testmod\render\RenderLad.java|768|784|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|testmod\render\RenderLad.java|785|797|LAD_TEXTURES|field|testmod.render.RenderLad|LAD_TEXTURES|
+   @|testmod\render\RenderLad.java|804|820|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   Method Start: RenderLad(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|testmod\render\RenderLad.java|894|909|renderManagerIn|param|testmod.render.RenderLad|RenderLad|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|renderManagerIn|0
+      @|testmod\render\RenderLad.java|870|879|RenderLad|method|testmod.render.RenderLad|RenderLad|(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+      @|testmod\render\RenderLad.java|880|893|RenderManager|class|net.minecraft.client.renderer.entity.RenderManager
+      @|testmod\render\RenderLad.java|921|936|renderManagerIn|param|testmod.render.RenderLad|RenderLad|(Lnet/minecraft/client/renderer/entity/RenderManager;)V|renderManagerIn|0
+   Method End: RenderLad(Lnet/minecraft/client/renderer/entity/RenderManager;)V
+   Method Start: getEntityTexture(Ltestmod/entity/EntityLad;)Lnet/minecraft/util/ResourceLocation;
+      @|testmod\render\RenderLad.java|1009|1015|entity|param|testmod.render.RenderLad|getEntityTexture|(Ltestmod/entity/EntityLad;)Lnet/minecraft/util/ResourceLocation;|entity|0
+      @|testmod\render\RenderLad.java|945|953|Override|class|java.lang.Override
+      @|testmod\render\RenderLad.java|965|981|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|testmod\render\RenderLad.java|982|998|getEntityTexture|method|net.minecraft.client.renderer.entity.Render|getEntityTexture|(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;
+      @|testmod\render\RenderLad.java|999|1008|EntityLad|class|testmod.entity.EntityLad
+      @|testmod\render\RenderLad.java|1028|1040|LAD_TEXTURES|field|testmod.render.RenderLad|LAD_TEXTURES
+   Method End: getEntityTexture(Ltestmod/entity/EntityLad;)Lnet/minecraft/util/ResourceLocation;
+Class End  : testmod.render.RenderLad
+endProcessing "testmod\render\RenderLad.java"
+

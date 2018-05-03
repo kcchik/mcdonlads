@@ -1,0 +1,58 @@
+Symbol range map extraction starting
+Processing 14 files
+startProcessing "testmod\ClientProxy.java" md5: f72a0cd9cb4d12b2678376019d2b93ce
+Cache Hit!
+endProcessing "testmod\ClientProxy.java"
+
+startProcessing "testmod\Proxy.java" md5: 2790ce217a8f43e6d1df545dd5920566
+Cache Hit!
+endProcessing "testmod\Proxy.java"
+
+startProcessing "testmod\TestMod.java" md5: 86bc5ef082fd164743f46ce4e93c3ede
+Cache Hit!
+endProcessing "testmod\TestMod.java"
+
+startProcessing "testmod\block\BlockHappyMeal.java" md5: 7c5d5f544cd50b7828e656adc8613159
+Cache Hit!
+endProcessing "testmod\block\BlockHappyMeal.java"
+
+startProcessing "testmod\entity\EntityLad.java" md5: f063cc2d7e54dbf6acd74e439d155fc2
+Cache Hit!
+endProcessing "testmod\entity\EntityLad.java"
+
+startProcessing "testmod\init\ModBlocks.java" md5: 92d15e1ea88f7961c774e151e5307037
+Cache Hit!
+endProcessing "testmod\init\ModBlocks.java"
+
+startProcessing "testmod\init\ModEntities.java" md5: 54e27d91709620b24d803f476793492f
+Cache Hit!
+endProcessing "testmod\init\ModEntities.java"
+
+startProcessing "testmod\init\ModItems.java" md5: 94a991f5e9a68ccbc8dfad26c9252cfa
+Cache Hit!
+endProcessing "testmod\init\ModItems.java"
+
+startProcessing "testmod\init\ModRecipes.java" md5: cc1a3f1a49803dfccd17a8883ae56e69
+Cache Hit!
+endProcessing "testmod\init\ModRecipes.java"
+
+startProcessing "testmod\item\ItemChickenNugget.java" md5: 6cf7d1dc0b44e2884b72c6c4739ab2cb
+Cache Hit!
+endProcessing "testmod\item\ItemChickenNugget.java"
+
+startProcessing "testmod\item\ItemCookedChickenNugget.java" md5: 40be27b11c1fef2ca9c5436d1f3ab1a4
+Cache Hit!
+endProcessing "testmod\item\ItemCookedChickenNugget.java"
+
+startProcessing "testmod\model\ModelLad.java" md5: 707d2f548519ddbee87ec053510621b7
+Cache Hit!
+endProcessing "testmod\model\ModelLad.java"
+
+startProcessing "testmod\render\RenderFactories.java" md5: 4bf0c728e4dd87ba0dbf788be1c7b68b
+Cache Hit!
+endProcessing "testmod\render\RenderFactories.java"
+
+startProcessing "testmod\render\RenderLad.java" md5: ee2a9a2ea1932132f805b5c73ebdf114
+Cache Hit!
+endProcessing "testmod\render\RenderLad.java"
+

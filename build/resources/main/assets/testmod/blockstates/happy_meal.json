@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "facing=east": { "model": "testmod:happy_meal" },
+        "facing=west": { "model": "testmod:happy_meal" },
+        "facing=north": { "model": "testmod:happy_meal", "y": 90 },
+        "facing=south": { "model": "testmod:happy_meal", "y": 90 },
+        "inventory": {
+            "model": "testmod:happy_meal",
+            "transform": "forge:default-block"
+        }
+    }
+}

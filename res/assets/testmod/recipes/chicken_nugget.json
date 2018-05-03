@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+        {
+            "item": "minecraft:chicken"
+        }
+    ],
+    "result": {
+        "item": "testmod:chicken_nugget",
+        "count": 8
+    }
+}
+}

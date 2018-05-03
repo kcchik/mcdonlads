@@ -1,0 +1,10 @@
+[
+{
+  "version": "0.1",
+  "mcversion": "${mcversion}",
+  "modid": "testmod",
+  "name": "McDonlads",
+  "description": "Testing",
+  "authorList": ["Kaibuu"]
+}
+]
