@@ -1,4 +1,4 @@
 # McDonlads
-Minecraft made better with Happy Meals and Chicken McNuggets.
+Happy Meals and Chicken McNuggets in Minecraft Java Edition.
 ## Installation
 Coming soon...
